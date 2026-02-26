@@ -66,6 +66,8 @@ const EXTENSION_MAP: Record<string, string> = {
   '.nim': 'nim',
   '.v': 'vlang',
   '.sol': 'solidity',
+  '.cls': 'apex',
+  '.trigger': 'apex',
 };
 
 export function detectLanguage(path: string): string {
